@@ -4,6 +4,10 @@ import Navbar from "./Navbar";
 export const metadata = {
   metadataBase: new URL("https://fileforge-six.vercel.app"),
 
+  verification: {
+    google: "5pj-Qgz2ogw09rS6zwVnG6ANjesKZUu0P9Q8KcG9vQg",
+  },
+
   title: {
     default: "FileForge - Online File Converter",
     template: "%s | FileForge",
