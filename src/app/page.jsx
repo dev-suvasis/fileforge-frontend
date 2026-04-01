@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="min-h-screen relative overflow-hidden bg-zinc-950 flex flex-col items-center justify-center p-6 selection:bg-brand-violet/30 outline-none">
+    <main className="min-h-screen relative overflow-hidden bg-zinc-950 flex flex-col items-center justify-center p-6 pt-20 md:pt-6 selection:bg-brand-violet/30 outline-none">
       {/* Dynamic Background */}
       <div className="absolute top-[-20%] right-[-10%] w-150 h-150 bg-brand-violet/15 blur-[150px] rounded-full animate-pulse-slow"></div>
       <div className="absolute bottom-[-15%] left-[-15%] w-150 h-150 bg-brand-pink/15 blur-[150px] rounded-full animate-pulse-slow lg:delay-[2s]"></div>
@@ -18,7 +18,7 @@ export default function Home() {
             Intelligence at work
           </div>
           
-          <h1 className="text-7xl md:text-9xl font-black tracking-tighter bg-clip-text text-transparent bg-gradient-to-b from-white to-white/30 uppercase font-outfit">
+          <h1 className="text-5xl md:text-9xl font-black tracking-tighter bg-clip-text text-transparent bg-gradient-to-b from-white to-white/30 uppercase font-outfit">
             FileForge
           </h1>
           

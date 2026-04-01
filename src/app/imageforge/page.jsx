@@ -151,20 +151,20 @@ export default function ImageForge() {
       </Head>
 
 
-      <div className="w-full max-w-2xl relative z-10 flex flex-col items-center ">
+      <div className="w-full max-w-2xl relative z-10 flex flex-col items-center pt-16 md:pt-10">
         {/* Header section */}
-        <header className="mb-12 text-center animate-fade-in">
-          <div className="inline-flex items-center justify-center p-3 mb-6 rounded-2xl bg-white/5 border border-white/10 shadow-2xl">
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-brand-violet">
+        <header className="mb-8 md:mb-12 text-center animate-fade-in">
+          <div className="inline-flex items-center justify-center p-2 mb-4 md:p-3 md:mb-6 rounded-2xl bg-white/5 border border-white/10 shadow-2xl">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-brand-violet md:w-8 md:h-8">
               <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
               <circle cx="8.5" cy="8.5" r="1.5" />
               <polyline points="21 15 16 10 5 21" />
             </svg>
           </div>
-          <h1 className="text-6xl font-black tracking-tight bg-clip-text text-transparent bg-gradient-to-b from-white to-white/40 mb-3 font-outfit uppercase">
+          <h1 className="text-4xl md:text-6xl font-black tracking-tighter bg-clip-text text-transparent bg-gradient-to-b from-white to-white/40 mb-2 md:mb-3 font-outfit uppercase">
             ImageForge<span className="text-brand-violet">.</span>
           </h1>
-          <p className="text-zinc-400 text-lg font-medium leading-relaxed font-sans">
+          <p className="text-zinc-500 md:text-zinc-400 text-sm md:text-lg font-medium leading-relaxed font-sans px-4">
             Instant image optimizations and conversions.
           </p>
         </header>
